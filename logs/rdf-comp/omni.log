@@ -1,0 +1,198 @@
+2016-09-16 17:19:10,646:omni        :DEBUG   : Created root logger: omni.log
+2016-09-16 17:19:10,647:omni        :DEBUG   : omni check-config
+2016-09-16 17:19:10,647:omni        :WARNING : Disabling Python warnings
+2016-09-16 17:19:10,648:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.check_config' from '/home/n02/n02/mmuetz/.local/lib/python2.7/site-packages/omnium/omni_cmds/check_config.pyc'>
+2016-09-16 17:19:10,648:omni        :DEBUG   : catching all exceptions
+2016-09-16 17:19:10,777:omni        :INFO    : Config OK
+2016-09-16 17:19:20,155:omni        :DEBUG   : Created root logger: omni.log
+2016-09-16 17:19:20,155:omni        :DEBUG   : omni gen-nodes
+2016-09-16 17:19:20,155:omni        :DEBUG   : checking config
+2016-09-16 17:19:20,179:omni        :DEBUG   : config OK
+2016-09-16 17:19:20,179:omni        :WARNING : Disabling Python warnings
+2016-09-16 17:19:20,179:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.gen_nodes' from '/home/n02/n02/mmuetz/.local/lib/python2.7/site-packages/omnium/omni_cmds/gen_nodes.pyc'>
+2016-09-16 17:19:20,179:omni        :DEBUG   : catching all exceptions
+2016-09-16 17:19:20,503:omni        :DEBUG   : Using filename glob: /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp4
+2016-09-16 17:19:20,504:omni        :WARNING : No filenames for <Group pp4MC_on (id=None, status=None)> using:
+2016-09-16 17:19:20,504:omni        :WARNING : /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp4
+2016-09-16 17:19:20,508:omni        :DEBUG   : Using filename glob: /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp5
+2016-09-16 17:19:20,508:omni        :WARNING : No filenames for <Group pp5MC_on (id=None, status=None)> using:
+2016-09-16 17:19:20,508:omni        :WARNING : /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp5
+2016-09-16 17:19:20,512:omni        :DEBUG   : Using filename glob: /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp6
+2016-09-16 17:19:20,512:omni        :WARNING : No filenames for <Group pp6MC_on (id=None, status=None)> using:
+2016-09-16 17:19:20,512:omni        :WARNING : /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp6
+2016-09-16 17:19:20,577:omni        :DEBUG   : settings all statuses
+2016-09-16 17:19:20,581:omni        :DEBUG   : <Group pp4MC_on (id=1, status=None)>: None doesn't match incomplete
+2016-09-16 17:19:20,581:omni        :DEBUG   : Updated: <Group pp4MC_on (id=1, status=incomplete)>
+2016-09-16 17:19:20,583:omni        :DEBUG   : <Group pp5MC_on (id=3, status=None)>: None doesn't match incomplete
+2016-09-16 17:19:20,583:omni        :DEBUG   : Updated: <Group pp5MC_on (id=3, status=incomplete)>
+2016-09-16 17:19:20,586:omni        :DEBUG   : <Group pp6MC_on (id=5, status=None)>: None doesn't match incomplete
+2016-09-16 17:19:20,586:omni        :DEBUG   : Updated: <Group pp6MC_on (id=5, status=incomplete)>
+2016-09-16 17:19:20,586:omni        :DEBUG   : <Batch batch0 (id=1, status=None)>: None doesn't match incomplete
+2016-09-16 17:19:20,586:omni        :DEBUG   : Updated: <Batch batch0 (id=1, status=incomplete)>
+2016-09-16 17:19:20,589:omni        :DEBUG   : <Group nc4MC_on (id=2, status=None)>: None doesn't match incomplete
+2016-09-16 17:19:20,589:omni        :DEBUG   : Updated: <Group nc4MC_on (id=2, status=incomplete)>
+2016-09-16 17:19:20,590:omni        :DEBUG   : <Group nc5MC_on (id=4, status=None)>: None doesn't match incomplete
+2016-09-16 17:19:20,590:omni        :DEBUG   : Updated: <Group nc5MC_on (id=4, status=incomplete)>
+2016-09-16 17:19:20,591:omni        :DEBUG   : <Group nc6MC_on (id=6, status=None)>: None doesn't match incomplete
+2016-09-16 17:19:20,591:omni        :DEBUG   : Updated: <Group nc6MC_on (id=6, status=incomplete)>
+2016-09-16 17:19:20,592:omni        :DEBUG   : <Batch batch1 (id=2, status=None)>: None doesn't match incomplete
+2016-09-16 17:19:20,592:omni        :DEBUG   : Updated: <Batch batch1 (id=2, status=incomplete)>
+2016-09-16 17:19:20,593:omni        :DEBUG   : <Batch batch2 (id=3, status=None)>: None doesn't match incomplete
+2016-09-16 17:19:20,593:omni        :DEBUG   : Updated: <Batch batch2 (id=3, status=incomplete)>
+2016-09-16 17:19:20,595:omni        :DEBUG   : <Batch batch3 (id=4, status=None)>: None doesn't match incomplete
+2016-09-16 17:19:20,595:omni        :DEBUG   : Updated: <Batch batch3 (id=4, status=incomplete)>
+2016-09-16 17:19:20,595:omni        :DEBUG   : Updating DAG
+2016-09-16 17:19:20,731:omni        :INFO    : Updated DAG
+2016-09-16 17:19:20,733:omni        :DEBUG   : <Batch batch0 (id=1, status=incomplete)>
+2016-09-16 17:19:20,734:omni        :DEBUG   :   <Group pp4MC_on (id=1, status=incomplete)>
+2016-09-16 17:19:20,735:omni        :DEBUG   :   <Group pp5MC_on (id=3, status=incomplete)>
+2016-09-16 17:19:20,736:omni        :DEBUG   :   <Group pp6MC_on (id=5, status=incomplete)>
+2016-09-16 17:19:20,737:omni        :DEBUG   : <Batch batch1 (id=2, status=incomplete)>
+2016-09-16 17:19:20,738:omni        :DEBUG   :   <Group nc4MC_on (id=2, status=incomplete)>
+2016-09-16 17:19:20,739:omni        :DEBUG   :   <Group nc5MC_on (id=4, status=incomplete)>
+2016-09-16 17:19:20,740:omni        :DEBUG   :   <Group nc6MC_on (id=6, status=incomplete)>
+2016-09-16 17:19:20,741:omni        :DEBUG   : <Batch batch2 (id=3, status=incomplete)>
+2016-09-16 17:19:20,742:omni        :DEBUG   : <Batch batch3 (id=4, status=incomplete)>
+2016-09-16 17:19:20,742:omni        :DEBUG   : 
+2016-09-16 17:26:25,326:omni        :DEBUG   : Created root logger: omni.log
+2016-09-16 17:26:25,329:omni        :DEBUG   : omni gen-nodes
+2016-09-16 17:26:25,330:omni        :DEBUG   : checking config
+2016-09-16 17:26:34,009:omni        :DEBUG   : Created root logger: omni.log
+2016-09-16 17:26:34,009:omni        :DEBUG   : omni gen-nodes --regen
+2016-09-16 17:26:34,009:omni        :DEBUG   : checking config
+2016-09-16 17:26:34,187:omni        :DEBUG   : config OK
+2016-09-16 17:26:34,187:omni        :WARNING : Disabling Python warnings
+2016-09-16 17:26:34,188:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.gen_nodes' from '/nerc/n02/n02/mmuetz/.local/lib/python2.7/site-packages/omnium/omni_cmds/gen_nodes.pyc'>
+2016-09-16 17:26:34,188:omni        :DEBUG   : catching all exceptions
+2016-09-16 17:26:35,719:omni        :DEBUG   : Using filename glob: /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp4
+2016-09-16 17:26:35,916:omni        :WARNING : No filenames for <Group pp4MC_on (id=None, status=None)> using:
+2016-09-16 17:26:35,917:omni        :WARNING : /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp4
+2016-09-16 17:26:35,926:omni        :DEBUG   : Using filename glob: /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp5
+2016-09-16 17:26:35,927:omni        :WARNING : No filenames for <Group pp5MC_on (id=None, status=None)> using:
+2016-09-16 17:26:35,927:omni        :WARNING : /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp5
+2016-09-16 17:26:35,933:omni        :DEBUG   : Using filename glob: /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp6
+2016-09-16 17:26:35,933:omni        :WARNING : No filenames for <Group pp6MC_on (id=None, status=None)> using:
+2016-09-16 17:26:35,933:omni        :WARNING : /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.???.pp6
+2016-09-16 17:26:36,064:omni        :DEBUG   : settings all statuses
+2016-09-16 17:26:36,068:omni        :DEBUG   : <Group pp4MC_on (id=1, status=None)>: None doesn't match incomplete
+2016-09-16 17:26:36,069:omni        :DEBUG   : Updated: <Group pp4MC_on (id=1, status=incomplete)>
+2016-09-16 17:26:36,175:omni        :DEBUG   : <Group pp5MC_on (id=3, status=None)>: None doesn't match incomplete
+2016-09-16 17:26:36,175:omni        :DEBUG   : Updated: <Group pp5MC_on (id=3, status=incomplete)>
+2016-09-16 17:26:36,178:omni        :DEBUG   : <Group pp6MC_on (id=5, status=None)>: None doesn't match incomplete
+2016-09-16 17:26:36,178:omni        :DEBUG   : Updated: <Group pp6MC_on (id=5, status=incomplete)>
+2016-09-16 17:26:36,179:omni        :DEBUG   : <Batch batch0 (id=1, status=None)>: None doesn't match incomplete
+2016-09-16 17:26:36,179:omni        :DEBUG   : Updated: <Batch batch0 (id=1, status=incomplete)>
+2016-09-16 17:26:36,183:omni        :DEBUG   : <Group nc4MC_on (id=2, status=None)>: None doesn't match incomplete
+2016-09-16 17:26:36,183:omni        :DEBUG   : Updated: <Group nc4MC_on (id=2, status=incomplete)>
+2016-09-16 17:26:36,185:omni        :DEBUG   : <Group nc5MC_on (id=4, status=None)>: None doesn't match incomplete
+2016-09-16 17:26:36,185:omni        :DEBUG   : Updated: <Group nc5MC_on (id=4, status=incomplete)>
+2016-09-16 17:26:36,187:omni        :DEBUG   : <Group nc6MC_on (id=6, status=None)>: None doesn't match incomplete
+2016-09-16 17:26:36,187:omni        :DEBUG   : Updated: <Group nc6MC_on (id=6, status=incomplete)>
+2016-09-16 17:26:36,188:omni        :DEBUG   : <Batch batch1 (id=2, status=None)>: None doesn't match incomplete
+2016-09-16 17:26:36,188:omni        :DEBUG   : Updated: <Batch batch1 (id=2, status=incomplete)>
+2016-09-16 17:26:36,190:omni        :DEBUG   : <Batch batch2 (id=3, status=None)>: None doesn't match incomplete
+2016-09-16 17:26:36,190:omni        :DEBUG   : Updated: <Batch batch2 (id=3, status=incomplete)>
+2016-09-16 17:26:36,192:omni        :DEBUG   : <Batch batch3 (id=4, status=None)>: None doesn't match incomplete
+2016-09-16 17:26:36,192:omni        :DEBUG   : Updated: <Batch batch3 (id=4, status=incomplete)>
+2016-09-16 17:26:36,192:omni        :DEBUG   : Updating DAG
+2016-09-16 17:26:36,206:omni        :INFO    : Updated DAG
+2016-09-16 17:26:36,210:omni        :DEBUG   : <Batch batch0 (id=1, status=incomplete)>
+2016-09-16 17:26:36,212:omni        :DEBUG   :   <Group pp4MC_on (id=1, status=incomplete)>
+2016-09-16 17:26:36,215:omni        :DEBUG   :   <Group pp5MC_on (id=3, status=incomplete)>
+2016-09-16 17:26:36,217:omni        :DEBUG   :   <Group pp6MC_on (id=5, status=incomplete)>
+2016-09-16 17:26:36,218:omni        :DEBUG   : <Batch batch1 (id=2, status=incomplete)>
+2016-09-16 17:26:36,220:omni        :DEBUG   :   <Group nc4MC_on (id=2, status=incomplete)>
+2016-09-16 17:26:36,221:omni        :DEBUG   :   <Group nc5MC_on (id=4, status=incomplete)>
+2016-09-16 17:26:36,223:omni        :DEBUG   :   <Group nc6MC_on (id=6, status=incomplete)>
+2016-09-16 17:26:36,224:omni        :DEBUG   : <Batch batch2 (id=3, status=incomplete)>
+2016-09-16 17:26:36,225:omni        :DEBUG   : <Batch batch3 (id=4, status=incomplete)>
+2016-09-16 17:26:36,227:omni        :DEBUG   : 
+2016-09-16 17:27:35,699:omni        :DEBUG   : Created root logger: omni.log
+2016-09-16 17:27:35,702:omni        :DEBUG   : omni gen-nodes --regen
+2016-09-16 17:27:35,704:omni        :DEBUG   : checking config
+2016-09-16 17:27:36,125:omni        :DEBUG   : config OK
+2016-09-16 17:27:36,125:omni        :WARNING : Disabling Python warnings
+2016-09-16 17:27:36,126:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.gen_nodes' from '/nerc/n02/n02/mmuetz/.local/lib/python2.7/site-packages/omnium/omni_cmds/gen_nodes.pyc'>
+2016-09-16 17:27:36,126:omni        :DEBUG   : catching all exceptions
+2016-09-16 17:27:36,757:omni        :DEBUG   : Using filename glob: /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.pp4
+2016-09-16 17:27:36,920:omni        :DEBUG   : creating node None: 20000101T0000Z/atmos/atmos.pp4
+2016-09-16 17:27:36,939:omni        :DEBUG   : Using filename glob: /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.pp5
+2016-09-16 17:27:37,005:omni        :DEBUG   : creating node None: 20000101T0000Z/atmos/atmos.pp5
+2016-09-16 17:27:37,019:omni        :DEBUG   : Using filename glob: /nerc/n02/n02/mmuetz/um10.5_runs/4day/iUM_IOP_MC_on/work/2000??????????/atmos/atmos.pp6
+2016-09-16 17:27:37,107:omni        :DEBUG   : creating node None: 20000101T0000Z/atmos/atmos.pp6
+2016-09-16 17:27:37,181:omni        :DEBUG   : creating node None: atmos.4.nc
+2016-09-16 17:27:37,245:omni        :DEBUG   : creating node None: atmos.6.nc
+2016-09-16 17:27:37,251:omni        :DEBUG   : creating node None: atmos.5.nc
+2016-09-16 17:27:37,326:omni        :DEBUG   : settings all statuses
+2016-09-16 17:27:37,334:omni        :DEBUG   : <Group pp4MC_on (id=1, status=None)>: None doesn't match done
+2016-09-16 17:27:37,335:omni        :DEBUG   : Updated: <Group pp4MC_on (id=1, status=done)>
+2016-09-16 17:27:37,339:omni        :DEBUG   : <Group pp5MC_on (id=3, status=None)>: None doesn't match done
+2016-09-16 17:27:37,339:omni        :DEBUG   : Updated: <Group pp5MC_on (id=3, status=done)>
+2016-09-16 17:27:37,342:omni        :DEBUG   : <Group pp6MC_on (id=5, status=None)>: None doesn't match done
+2016-09-16 17:27:37,342:omni        :DEBUG   : Updated: <Group pp6MC_on (id=5, status=done)>
+2016-09-16 17:27:37,342:omni        :DEBUG   : <Batch batch0 (id=1, status=None)>: None doesn't match done
+2016-09-16 17:27:37,342:omni        :DEBUG   : Updated: <Batch batch0 (id=1, status=done)>
+2016-09-16 17:27:37,347:omni        :DEBUG   : <Group nc4MC_on (id=2, status=None)>: None doesn't match missing
+2016-09-16 17:27:37,347:omni        :DEBUG   : Updated: <Group nc4MC_on (id=2, status=missing)>
+2016-09-16 17:27:37,349:omni        :DEBUG   : <Group nc5MC_on (id=4, status=None)>: None doesn't match missing
+2016-09-16 17:27:37,349:omni        :DEBUG   : Updated: <Group nc5MC_on (id=4, status=missing)>
+2016-09-16 17:27:37,352:omni        :DEBUG   : <Group nc6MC_on (id=6, status=None)>: None doesn't match missing
+2016-09-16 17:27:37,352:omni        :DEBUG   : Updated: <Group nc6MC_on (id=6, status=missing)>
+2016-09-16 17:27:37,352:omni        :DEBUG   : <Batch batch1 (id=2, status=None)>: None doesn't match missing
+2016-09-16 17:27:37,352:omni        :DEBUG   : Updated: <Batch batch1 (id=2, status=missing)>
+2016-09-16 17:27:37,355:omni        :DEBUG   : <Batch batch2 (id=3, status=None)>: None doesn't match incomplete
+2016-09-16 17:27:37,355:omni        :DEBUG   : Updated: <Batch batch2 (id=3, status=incomplete)>
+2016-09-16 17:27:37,357:omni        :DEBUG   : <Batch batch3 (id=4, status=None)>: None doesn't match incomplete
+2016-09-16 17:27:37,357:omni        :DEBUG   : Updated: <Batch batch3 (id=4, status=incomplete)>
+2016-09-16 17:27:37,357:omni        :DEBUG   : Updating DAG
+2016-09-16 17:27:37,498:omni        :INFO    : Updated DAG
+2016-09-16 17:27:37,501:omni        :DEBUG   : <Batch batch0 (id=1, status=done)>
+2016-09-16 17:27:37,504:omni        :DEBUG   :   <Group pp4MC_on (id=1, status=done)>
+2016-09-16 17:27:37,507:omni        :DEBUG   :     <Node atmos.pp4 (id=1, status=done)>
+2016-09-16 17:27:37,507:omni        :DEBUG   :   <Group pp5MC_on (id=3, status=done)>
+2016-09-16 17:27:37,508:omni        :DEBUG   :     <Node atmos.pp5 (id=2, status=done)>
+2016-09-16 17:27:37,508:omni        :DEBUG   :   <Group pp6MC_on (id=5, status=done)>
+2016-09-16 17:27:37,510:omni        :DEBUG   :     <Node atmos.pp6 (id=3, status=done)>
+2016-09-16 17:27:37,510:omni        :DEBUG   : <Batch batch1 (id=2, status=missing)>
+2016-09-16 17:27:37,511:omni        :DEBUG   :   <Group nc4MC_on (id=2, status=missing)>
+2016-09-16 17:27:37,513:omni        :DEBUG   :     <Node atmos.4.nc (id=4, status=missing)>
+2016-09-16 17:27:37,513:omni        :DEBUG   :   <Group nc5MC_on (id=4, status=missing)>
+2016-09-16 17:27:37,515:omni        :DEBUG   :     <Node atmos.5.nc (id=6, status=missing)>
+2016-09-16 17:27:37,515:omni        :DEBUG   :   <Group nc6MC_on (id=6, status=missing)>
+2016-09-16 17:27:37,516:omni        :DEBUG   :     <Node atmos.6.nc (id=5, status=missing)>
+2016-09-16 17:27:37,516:omni        :DEBUG   : <Batch batch2 (id=3, status=incomplete)>
+2016-09-16 17:27:37,518:omni        :DEBUG   : <Batch batch3 (id=4, status=incomplete)>
+2016-09-16 17:27:37,519:omni        :DEBUG   : 
+2016-09-16 17:28:46,627:omni        :DEBUG   : Created root logger: omni.log
+2016-09-16 17:28:46,632:omni        :DEBUG   : omni process -b batch1
+2016-09-16 17:28:46,632:omni        :DEBUG   : checking config
+2016-09-16 17:28:47,014:omni        :DEBUG   : config OK
+2016-09-16 17:28:47,014:omni        :WARNING : Disabling Python warnings
+2016-09-16 17:28:47,015:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/nerc/n02/n02/mmuetz/.local/lib/python2.7/site-packages/omnium/omni_cmds/process.pyc'>
+2016-09-16 17:28:47,015:omni        :DEBUG   : catching all exceptions
+2016-09-16 17:28:47,232:omni        :INFO    : Processing batch <Batch batch1 (id=2, status=missing)>
+2016-09-16 17:28:47,234:omni        :INFO    :   Processing group <Group nc4MC_on (id=2, status=missing)>
+2016-09-16 17:28:47,237:omni        :INFO    :     Processing node <Node atmos.4.nc (id=4, status=missing)>
+2016-09-16 17:28:47,239:omni        :INFO    :       Using process convert_pp_to_nc
+2016-09-16 17:29:09,274:omni        :DEBUG   : loading <Node atmos.4.nc (id=4, status=missing)>
+2016-09-16 17:31:58,603:omni        :DEBUG   : running <Node atmos.4.nc (id=4, status=missing)>
+2016-09-16 17:31:58,609:omni        :DEBUG   : saving <Node atmos.4.nc (id=4, status=missing)>
+2016-09-16 17:31:58,613:omni        :DEBUG   : Creating dir /nerc/n02/n02/mmuetz/omni_output/iUM_IOP/results_MC_on
+2016-09-16 17:37:04,314:omni        :DEBUG   : finished <Node atmos.4.nc (id=4, status=done)>
+2016-09-16 17:37:04,347:omni        :INFO    :     Processed <Node atmos.4.nc (id=4, status=done)>
+2016-09-16 17:37:04,496:omni        :INFO    :   Processed group <Group nc4MC_on (id=2, status=missing)>
+2016-09-16 17:37:04,500:omni        :INFO    :   Processing group <Group nc5MC_on (id=4, status=missing)>
+2016-09-16 17:37:04,613:omni        :INFO    :     Processing node <Node atmos.5.nc (id=6, status=missing)>
+2016-09-16 17:37:04,616:omni        :INFO    :       Using process convert_pp_to_nc
+2016-09-16 17:37:05,237:omni        :DEBUG   : loading <Node atmos.5.nc (id=6, status=missing)>
+2016-09-16 17:41:16,309:omni        :DEBUG   : running <Node atmos.5.nc (id=6, status=missing)>
+2016-09-16 17:41:16,315:omni        :DEBUG   : saving <Node atmos.5.nc (id=6, status=missing)>
+2016-09-16 17:47:31,558:omni        :DEBUG   : finished <Node atmos.5.nc (id=6, status=done)>
+2016-09-16 17:47:31,561:omni        :INFO    :     Processed <Node atmos.5.nc (id=6, status=done)>
+2016-09-16 17:47:31,733:omni        :INFO    :   Processed group <Group nc5MC_on (id=4, status=missing)>
+2016-09-16 17:47:31,734:omni        :INFO    :   Processing group <Group nc6MC_on (id=6, status=missing)>
+2016-09-16 17:47:31,738:omni        :INFO    :     Processing node <Node atmos.6.nc (id=5, status=missing)>
+2016-09-16 17:47:31,740:omni        :INFO    :       Using process convert_pp_to_nc
+2016-09-16 17:47:32,147:omni        :DEBUG   : loading <Node atmos.6.nc (id=5, status=missing)>
+2016-09-16 17:49:55,497:omni        :DEBUG   : running <Node atmos.6.nc (id=5, status=missing)>
+2016-09-16 17:49:55,500:omni        :DEBUG   : saving <Node atmos.6.nc (id=5, status=missing)>
