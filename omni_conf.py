@@ -15,7 +15,7 @@ computers = {
     },
     'Z580': {
         'dirs': {
-            'um_output': '/media/markmuetz/SAMSUNG/um_output/um10.6_runs/10day/',
+            'um_output': '/home/markmuetz/um_output/um10.6_runs/20day/',
             'output': '/home/markmuetz/Dropbox/omni_output/iUM_CC2006ii/output',
             'output_cloud_stats': '/home/markmuetz/Dropbox/omni_output/iUM_CC2006ii/output_cloud_stats',
         }
