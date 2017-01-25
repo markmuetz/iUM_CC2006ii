@@ -11,8 +11,8 @@ OPTS = odict([('Evap', {'ylim': (0, 0.0004), 'yaxis': True}),
 L = 2.501e6
 
 # TODO: take from data.
-LX = 128000
-LY = 128000
+LX = 256000
+LY = 256000
 NX = 256
 NY = 256
 

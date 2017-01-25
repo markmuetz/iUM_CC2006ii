@@ -9,8 +9,8 @@ computers = {
     'zerogravitas': {
         'dirs': {
             'um_output': '/home/markmuetz/um_output/um10.6_runs/20day/',
-            'output': '/home/markmuetz/omni_output/iUM_CC2006ii/output',
-            'output_cloud_stats': '/home/markmuetz/omni_output/iUM_CC2006ii/output_cloud_stats',
+            'output': '/home/markmuetz/Dropbox/omni_output/iUM_CC2006ii/output',
+            'output_cloud_stats': '/home/markmuetz/Dropbox/omni_output/iUM_CC2006ii/output_cloud_stats',
         }
     },
     'Z580': {
@@ -22,7 +22,8 @@ computers = {
     },
 }
 
-expts = ['2Kpdy_cooling', 'no_wind', '16Kpdy_cooling', 'weak_shear', 'strong_shear']
+expts = ['2Kpdy_cooling', 'no_wind', '16Kpdy_cooling', 'weak_shear', 'strong_shear',
+        '2Kpdy_weak_shear', '2Kpdy_strong_shear']
 comp = computers['zerogravitas']
 for expt in expts:
     comp['dirs']['work_' + expt] = '/home/markmuetz/omni_output/iUM_CC2006ii/work_{}'.format(expt)
@@ -83,18 +84,28 @@ for expt in expts:
         'process': 'plot_mass_flux_surf_timeseries',
     }
 
+    cc_nodes = []
+    w_threshes = [1, 2, 5, 10]
+    qcl_threshes = [0.001, 0.002, 0.003]
+    cc_fmt = 'count_clouds_plots_w{}_qcl{}_{}'
+    for w_thresh in w_threshes:
+        for qcl_thresh in qcl_threshes:
+            cc_nodes.append(cc_fmt.format(w_thresh, qcl_thresh, expt))
+
     groups['count_clouds' + expt] = {
         'type': 'nodes_process',
         'base_dir': 'output_cloud_stats',
         'batch': 'batch3',
-        'nodes': ['count_clouds_plots_w1_qcl0p001_' + expt],
+        'nodes': cc_nodes,
     }
-    nodes['count_clouds_plots_w1_qcl0p001_' + expt] = {
-        'type': 'from_group',
-        'from_group': 'stream1_' + expt,
-        'variable': 'w',
-        'process': 'count_clouds',
-        'process_kwargs': {'w_thresh': 1, 'qcl_thresh': 0.001, 'start_index': 1440, 'end_index': 2000},
+    for w_thresh in w_threshes:
+        for qcl_thresh in qcl_threshes:
+            nodes[cc_fmt.format(w_thresh, qcl_thresh, expt)] = {
+                'type': 'from_group',
+                'from_group': 'stream1_' + expt,
+                'variable': 'w',
+                'process': 'count_clouds',
+                'process_kwargs': {'w_thresh': w_thresh, 'qcl_thresh': qcl_thresh, 'start_index': 1440, 'end_index': 2000},
     }
 
 
