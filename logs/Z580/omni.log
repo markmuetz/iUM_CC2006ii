@@ -1,0 +1,40 @@
+2017-01-25 10:19:32,994:omni        :DEBUG   : Created root logger: omni.log
+2017-01-25 10:19:32,995:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-25 10:19:33,009:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-25 10:19:33,009:omni        :DEBUG   : state: git_hash: 911b4436c439382d82ad1af82a73ffcee4bf8622
+2017-01-25 10:19:33,009:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-25 10:19:33,009:omni        :DEBUG   : state: conda_env: None
+2017-01-25 10:19:33,010:omni        :DEBUG   : cmd: omni shell
+2017-01-25 10:19:33,250:omni        :DEBUG   : checking config
+2017-01-25 10:19:33,278:omni        :DEBUG   : config OK
+2017-01-25 10:19:33,278:omni        :WARNING : Disabling Python warnings
+2017-01-25 10:19:33,278:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.shell' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/shell.pyc'>
+2017-01-25 10:19:33,278:omni        :DEBUG   : catching all exceptions
+2017-01-25 10:24:31,088:omni        :INFO    : Renaming unknown_0->CLD ICE MIXING RATIO (mcf) AFTER TS
+2017-01-25 10:24:31,088:omni        :INFO    : Renaming unknown_1->RAIN MIXING RATIO (mr) AFTER TS
+2017-01-25 10:24:31,088:omni        :INFO    : Renaming unknown->CLD LIQ MIXING RATIO (mcl) AFTER TS
+2017-01-25 10:24:31,089:omni        :INFO    : Renaming stratiform_rainfall_rate->LARGE SCALE RAINFALL RATE    KG/M2/S
+2017-01-25 10:24:31,089:omni        :INFO    : Renaming surface_upward_latent_heat_flux->SURFACE LATENT HEAT FLUX        W/M2
+2017-01-25 10:24:31,089:omni        :INFO    : Renaming surface_upward_sensible_heat_flux->SURFACE SENSIBLE  HEAT FLUX     W/M2
+2017-01-25 10:24:31,089:omni        :INFO    : Renaming upward_air_velocity->W COMPNT OF WIND AFTER TIMESTEP
+2017-01-25 10:25:15,212:omni        :INFO    : Renaming unknown_0->CLD ICE MIXING RATIO (mcf) AFTER TS
+2017-01-25 10:25:15,212:omni        :INFO    : Renaming unknown_1->RAIN MIXING RATIO (mr) AFTER TS
+2017-01-25 10:25:15,212:omni        :INFO    : Renaming unknown->CLD LIQ MIXING RATIO (mcl) AFTER TS
+2017-01-25 10:25:15,212:omni        :INFO    : Renaming stratiform_rainfall_rate->LARGE SCALE RAINFALL RATE    KG/M2/S
+2017-01-25 10:25:15,212:omni        :INFO    : Renaming surface_upward_latent_heat_flux->SURFACE LATENT HEAT FLUX        W/M2
+2017-01-25 10:25:15,212:omni        :INFO    : Renaming surface_upward_sensible_heat_flux->SURFACE SENSIBLE  HEAT FLUX     W/M2
+2017-01-25 10:25:15,212:omni        :INFO    : Renaming upward_air_velocity->W COMPNT OF WIND AFTER TIMESTEP
+2017-01-25 10:37:42,096:omni        :INFO    : Renaming unknown_0->CLD ICE MIXING RATIO (mcf) AFTER TS
+2017-01-25 10:37:42,096:omni        :INFO    : Renaming unknown_1->RAIN MIXING RATIO (mr) AFTER TS
+2017-01-25 10:37:42,097:omni        :INFO    : Renaming unknown->CLD LIQ MIXING RATIO (mcl) AFTER TS
+2017-01-25 10:37:42,097:omni        :INFO    : Renaming stratiform_rainfall_rate->LARGE SCALE RAINFALL RATE    KG/M2/S
+2017-01-25 10:37:42,097:omni        :INFO    : Renaming surface_upward_latent_heat_flux->SURFACE LATENT HEAT FLUX        W/M2
+2017-01-25 10:37:42,097:omni        :INFO    : Renaming surface_upward_sensible_heat_flux->SURFACE SENSIBLE  HEAT FLUX     W/M2
+2017-01-25 10:37:42,097:omni        :INFO    : Renaming upward_air_velocity->W COMPNT OF WIND AFTER TIMESTEP
+2017-01-25 10:39:08,261:omni        :INFO    : Renaming unknown_0->CLD ICE MIXING RATIO (mcf) AFTER TS
+2017-01-25 10:39:08,261:omni        :INFO    : Renaming unknown_1->RAIN MIXING RATIO (mr) AFTER TS
+2017-01-25 10:39:08,261:omni        :INFO    : Renaming unknown->CLD LIQ MIXING RATIO (mcl) AFTER TS
+2017-01-25 10:39:08,261:omni        :INFO    : Renaming stratiform_rainfall_rate->LARGE SCALE RAINFALL RATE    KG/M2/S
+2017-01-25 10:39:08,261:omni        :INFO    : Renaming surface_upward_latent_heat_flux->SURFACE LATENT HEAT FLUX        W/M2
+2017-01-25 10:39:08,261:omni        :INFO    : Renaming surface_upward_sensible_heat_flux->SURFACE SENSIBLE  HEAT FLUX     W/M2
+2017-01-25 10:39:08,261:omni        :INFO    : Renaming upward_air_velocity->W COMPNT OF WIND AFTER TIMESTEP
