@@ -1,3 +1,4 @@
+from __future__ import division
 from collections import OrderedDict as odict
 import importlib
 
@@ -66,23 +67,28 @@ class CountClouds(PylabProcess):
         mask = ((w.data > w_thresh) & (qcl.data > qcl_thresh))
 
         dists = []
+        total_clouds = 0
         for i in range(start_index, end_index):
-            if i % 10 == 0:
-                print(i)
+            #print(i)
             cloud_mask = count_blobs_mask(mask[i], diagonal=True)[1]
             cp = self._get_cloud_pos(cloud_mask)
             clouds = []
             for j in range(cp.shape[0]):
                 clouds.append(Cloud(cp[j, 0], cp[j, 1]))
+            total_clouds += len(clouds)
             new_dists = self._calc_cloud_stats(clouds)
             dists.extend(new_dists)
+        mean_clouds = total_clouds/(end_index - start_index)
+        print(mean_clouds)
 
         #plt.clf()
+        print(len(dists))
         n, bins, patch = self.plt.hist(dists, 100)
         areas = self.np.pi * (bins[1:]**2 - bins[:-1]**2)
         fig = self.plt.figure()
         self.plt.plot(bins[1:], n / areas)
-        #plt.xlim((0, 64000))
+        self.plt.xlim((0, 128000))
+        #self.plt.ylim((0, 4e-7))
         self.processed_data = fig
 
     def save(self):
