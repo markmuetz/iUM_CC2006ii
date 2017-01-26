@@ -79,16 +79,21 @@ class CountClouds(PylabProcess):
             new_dists = self._calc_cloud_stats(clouds)
             dists.extend(new_dists)
         mean_clouds = total_clouds/(end_index - start_index)
-        print(mean_clouds)
+        #print(mean_clouds)
 
         #plt.clf()
-        print(len(dists))
+        #print(len(dists))
         n, bins, patch = self.plt.hist(dists, 100)
         areas = self.np.pi * (bins[1:]**2 - bins[:-1]**2)
         fig = self.plt.figure()
-        self.plt.plot(bins[1:], n / areas)
+        cloud_densities = n / areas
+
+        # Normalize based on mean density over domain.
+        mean = cloud_densities[bins < LX / 2.].mean()
+        self.plt.plot((bins[:-1] + bins[1:]) / 2, cloud_densities / mean)
+
         self.plt.xlim((0, 128000))
-        #self.plt.ylim((0, 4e-7))
+        self.plt.ylim((0, 15))
         self.processed_data = fig
 
     def save(self):
