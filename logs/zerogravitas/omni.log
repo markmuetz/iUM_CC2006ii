@@ -11638,3 +11638,385 @@ omni check-config
 2017-01-26 20:56:10,752:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
 2017-01-26 20:56:10,803:omni        :INFO    : All nodes statuses verified
 2017-01-26 20:56:10,803:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:26:36,044:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:26:36,045:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:26:36,053:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:26:36,053:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:26:36,053:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:26:36,053:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:26:36,053:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear
+2017-01-26 21:26:36,308:omni        :DEBUG   : checking config
+2017-01-26 21:26:36,327:omni        :DEBUG   : config OK
+2017-01-26 21:26:36,327:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:26:36,327:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:26:36,327:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:26:36,360:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:26:36,362:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:26:36,362:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:26:36,787:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:26:36,919:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:26:57,483:omni        :ERROR   : global name 'np' is not defined
+2017-01-26 21:27:12,320:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:27:12,321:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:27:12,344:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:27:12,344:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:27:12,344:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:27:12,344:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:27:12,344:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear
+2017-01-26 21:27:12,592:omni        :DEBUG   : checking config
+2017-01-26 21:27:12,611:omni        :DEBUG   : config OK
+2017-01-26 21:27:12,612:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:27:12,612:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:27:12,612:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:27:12,634:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:27:12,635:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:27:12,635:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:27:13,190:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:27:13,319:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:27:33,548:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:27:33,686:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:27:33,743:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:27:33,743:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:27:38,168:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:27:38,168:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:27:38,197:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:27:38,198:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:27:38,198:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:27:38,198:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:27:38,199:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_cooling
+2017-01-26 21:27:38,520:omni        :DEBUG   : checking config
+2017-01-26 21:27:38,540:omni        :DEBUG   : config OK
+2017-01-26 21:27:38,540:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:27:38,541:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:27:38,541:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:27:38,563:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:27:38,564:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:27:38,564:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:27:39,108:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:27:39,241:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:28:00,117:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:28:00,241:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:28:00,287:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:28:00,287:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:28:50,551:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:28:50,551:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:28:50,558:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:28:50,559:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:28:50,559:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:28:50,559:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:28:50,559:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_cooling
+2017-01-26 21:28:50,792:omni        :DEBUG   : checking config
+2017-01-26 21:28:50,811:omni        :DEBUG   : config OK
+2017-01-26 21:28:50,811:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:28:50,811:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:28:50,811:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:28:50,832:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:28:50,833:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:28:50,833:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:28:51,273:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:28:51,404:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:29:12,325:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:29:12,439:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:29:12,487:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:29:12,487:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:32:42,060:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:32:42,060:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:32:42,068:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:32:42,068:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:32:42,068:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:32:42,068:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:32:42,068:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_cooling
+2017-01-26 21:32:42,303:omni        :DEBUG   : checking config
+2017-01-26 21:32:42,323:omni        :DEBUG   : config OK
+2017-01-26 21:32:42,323:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:32:42,323:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:32:42,323:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:32:42,344:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:32:42,346:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:32:42,346:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:32:42,792:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:32:42,922:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:33:04,458:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:33:04,575:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:33:04,621:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:33:04,622:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:33:34,932:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:33:34,932:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:33:34,939:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:33:34,939:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:33:34,939:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:33:34,939:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:33:34,939:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_cooling
+2017-01-26 21:33:35,177:omni        :DEBUG   : checking config
+2017-01-26 21:33:35,197:omni        :DEBUG   : config OK
+2017-01-26 21:33:35,197:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:33:35,197:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:33:35,197:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:33:35,223:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:33:35,225:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:33:35,225:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:33:35,627:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:33:35,754:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:33:56,692:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:33:56,819:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:33:56,864:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:33:56,864:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:37:01,567:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:37:01,567:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:37:01,576:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:37:01,576:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:37:01,576:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:37:01,576:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:37:01,576:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear
+2017-01-26 21:37:01,843:omni        :DEBUG   : checking config
+2017-01-26 21:37:01,864:omni        :DEBUG   : config OK
+2017-01-26 21:37:01,864:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:37:01,864:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:37:01,864:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:37:01,888:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:37:01,889:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:37:01,890:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:37:02,394:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:37:02,528:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:37:22,847:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:37:22,981:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:37:23,032:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:37:23,032:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:43:24,720:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:43:24,720:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:43:24,727:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:43:24,727:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:43:24,727:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:43:24,727:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:43:24,727:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear
+2017-01-26 21:43:24,939:omni        :DEBUG   : checking config
+2017-01-26 21:43:24,960:omni        :DEBUG   : config OK
+2017-01-26 21:43:24,960:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:43:24,960:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:43:24,961:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:43:24,983:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:43:24,984:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:43:24,984:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:43:25,378:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:43:25,522:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:43:46,690:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:43:46,831:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:43:46,873:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:43:46,873:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:43:51,170:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:43:51,170:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:43:51,178:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:43:51,178:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:43:51,179:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:43:51,179:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:43:51,179:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_cooling
+2017-01-26 21:43:51,417:omni        :DEBUG   : checking config
+2017-01-26 21:43:51,437:omni        :DEBUG   : config OK
+2017-01-26 21:43:51,437:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:43:51,437:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:43:51,437:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:43:51,461:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:43:51,462:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:43:51,462:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:43:51,866:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:43:52,017:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:44:13,343:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:44:13,505:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:44:13,557:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:44:13,558:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:44:47,789:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:44:47,789:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:44:47,803:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:44:47,803:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:44:47,803:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:44:47,803:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:44:47,803:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_cooling
+2017-01-26 21:44:48,071:omni        :DEBUG   : checking config
+2017-01-26 21:44:48,091:omni        :DEBUG   : config OK
+2017-01-26 21:44:48,091:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:44:48,091:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:44:48,091:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:44:48,115:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:44:48,116:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:44:48,117:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:44:48,535:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:44:48,667:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:45:09,923:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:45:10,072:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:45:10,122:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:45:10,122:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:45:16,939:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:45:16,939:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:45:16,947:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:45:16,947:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:45:16,947:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:45:16,947:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:45:16,948:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear
+2017-01-26 21:45:17,193:omni        :DEBUG   : checking config
+2017-01-26 21:45:17,214:omni        :DEBUG   : config OK
+2017-01-26 21:45:17,214:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:45:17,214:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:45:17,214:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:45:17,249:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:45:17,250:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:45:17,250:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:45:17,656:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:45:17,789:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:45:38,517:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:45:38,647:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:45:38,704:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:45:38,704:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:45:55,498:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:45:55,498:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:45:55,506:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:45:55,506:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:45:55,506:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:45:55,506:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:45:55,506:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear
+2017-01-26 21:45:55,722:omni        :DEBUG   : checking config
+2017-01-26 21:45:55,742:omni        :DEBUG   : config OK
+2017-01-26 21:45:55,742:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:45:55,742:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:45:55,742:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:45:55,766:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:45:55,767:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:45:55,767:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:45:56,167:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:45:56,297:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:46:17,068:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:46:17,190:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:46:17,240:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:46:17,240:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:46:43,754:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:46:43,754:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:46:43,762:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:46:43,763:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:46:43,763:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:46:43,763:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:46:43,763:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_cooling
+2017-01-26 21:46:44,013:omni        :DEBUG   : checking config
+2017-01-26 21:46:44,032:omni        :DEBUG   : config OK
+2017-01-26 21:46:44,032:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:46:44,032:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:46:44,032:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:46:44,055:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:46:44,057:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:46:44,057:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:46:44,473:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:46:44,608:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:47:05,771:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:47:05,895:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:47:05,951:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:47:05,951:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:49:04,555:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:49:04,555:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:49:04,562:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:49:04,562:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:49:04,562:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:49:04,562:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:49:04,562:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_cooling
+2017-01-26 21:49:43,692:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:49:43,692:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:49:43,699:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:49:43,699:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:49:43,699:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:49:43,699:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:49:43,699:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_cooling
+2017-01-26 21:49:43,929:omni        :DEBUG   : checking config
+2017-01-26 21:49:43,949:omni        :DEBUG   : config OK
+2017-01-26 21:49:43,949:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:49:43,949:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:49:43,949:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:49:43,977:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:49:43,979:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:49:43,979:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:49:44,387:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:49:44,516:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:50:05,862:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:50:05,982:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:50:06,026:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:50:06,026:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:50:26,577:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:50:26,577:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:50:26,584:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:50:26,584:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:50:26,584:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:50:26,584:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:50:26,584:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear
+2017-01-26 21:50:26,815:omni        :DEBUG   : checking config
+2017-01-26 21:50:26,834:omni        :DEBUG   : config OK
+2017-01-26 21:50:26,834:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:50:26,834:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:50:26,835:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:50:26,858:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:50:26,860:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:50:26,860:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:50:27,283:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:50:27,419:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:50:48,338:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:50:48,461:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:50:48,505:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:50:48,506:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:51:33,959:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:51:33,959:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:51:33,970:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:51:33,970:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:51:33,970:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:51:33,970:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:51:33,970:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear
+2017-01-26 21:51:34,182:omni        :DEBUG   : checking config
+2017-01-26 21:51:34,201:omni        :DEBUG   : config OK
+2017-01-26 21:51:34,201:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:51:34,202:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:51:34,202:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:51:34,226:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:51:34,228:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:51:34,228:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:51:34,619:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:51:34,747:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:51:48,732:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:51:48,865:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:51:48,911:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:51:48,911:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:52:26,533:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:52:26,533:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:52:26,542:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:52:26,542:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:52:26,542:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:52:26,542:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:52:26,542:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear
+2017-01-26 21:52:26,791:omni        :DEBUG   : checking config
+2017-01-26 21:52:26,810:omni        :DEBUG   : config OK
+2017-01-26 21:52:26,810:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:52:26,811:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:52:26,811:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:52:26,835:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:52:26,837:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:52:26,837:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:52:27,239:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:52:27,369:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:52:48,570:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:52:48,697:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:52:48,738:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:52:48,739:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_strong_shear (id=115, status=done)>
+2017-01-26 21:53:10,199:omni        :DEBUG   : Created root logger: omni.log
+2017-01-26 21:53:10,199:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-26 21:53:10,206:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-26 21:53:10,206:omni        :DEBUG   : state: git_hash: 6a723f13ac94ffebd6490b5ff747d82e4258dc6c
+2017-01-26 21:53:10,206:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-26 21:53:10,206:omni        :DEBUG   : state: conda_env: omnium_testing
+2017-01-26 21:53:10,206:omni        :DEBUG   : cmd: omni process -fn count_clouds_plots_w1_qcl0.001_2Kpdy_cooling
+2017-01-26 21:53:10,416:omni        :DEBUG   : checking config
+2017-01-26 21:53:10,435:omni        :DEBUG   : config OK
+2017-01-26 21:53:10,435:omni        :WARNING : Disabling Python warnings
+2017-01-26 21:53:10,435:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-26 21:53:10,435:omni        :DEBUG   : catching all exceptions
+2017-01-26 21:53:10,470:omni        :INFO    : Processing node <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:53:10,472:omni        :INFO    :   Using process count_clouds
+2017-01-26 21:53:10,472:omni        :INFO    :   process_kwargs {'qcl_thresh': 0.001, 'w_thresh': 1, 'start_index': 1440, 'end_index': 2000}
+2017-01-26 21:53:10,838:omni        :DEBUG   : loading <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:53:10,971:omni        :DEBUG   : running <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:53:32,789:omni        :DEBUG   : saving <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:53:32,918:omni        :DEBUG   : finished <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>
+2017-01-26 21:53:32,960:omni        :INFO    : All nodes statuses verified
+2017-01-26 21:53:32,960:omni        :INFO    : Processed <Node count_clouds_plots_w1_qcl0.001_2Kpdy_cooling (id=7, status=done)>

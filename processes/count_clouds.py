@@ -79,21 +79,34 @@ class CountClouds(PylabProcess):
             new_dists = self._calc_cloud_stats(clouds)
             dists.extend(new_dists)
         mean_clouds = total_clouds/(end_index - start_index)
-        #print(mean_clouds)
 
-        #plt.clf()
-        #print(len(dists))
-        n, bins, patch = self.plt.hist(dists, 100)
-        areas = self.np.pi * (bins[1:]**2 - bins[:-1]**2)
+        n, bins, patch = self.plt.hist(dists, 1000)
         fig = self.plt.figure()
+
+        areas = self.np.pi * (bins[1:]**2 - bins[:-1]**2)
         cloud_densities = n / areas
 
         # Normalize based on mean density over domain.
-        mean = cloud_densities[bins < LX / 2.].mean()
-        self.plt.plot((bins[:-1] + bins[1:]) / 2, cloud_densities / mean)
+        # WRONG WAY TO DO IT!:
+        # mean = cloud_densities[bins < LX / 2.].mean()
+        # self.plt.plot((bins[:-1] + bins[1:]) / 2, cloud_densities / mean)
+        # calculates the mean of the densities, not the mean density.
 
-        self.plt.xlim((0, 128000))
-        self.plt.ylim((0, 15))
+        # Correct way to normalize:
+        # Divide the total number in a circle by the circle's area.
+        imax = self.np.argmax(bins[1:] > (LX / 2))
+        mean_density = n[:imax].sum() / (self.np.pi * bins[imax]**2)
+        xpoints = (bins[:-1] + bins[1:]) / 2
+        self.plt.plot(xpoints / 1000, cloud_densities / mean_density)
+        self.plt.xlabel('Distance (km)')
+        self.plt.ylabel('Normalized cloud number density')
+        self.plt.axhline(y=1, ls='--')
+        #print(bins[:21] / 1000)
+        #print(n[:20])
+        #print(cloud_densities[:20])
+
+        self.plt.xlim((0, 128))
+        self.plt.ylim((0, 25))
         self.processed_data = fig
 
     def save(self):
