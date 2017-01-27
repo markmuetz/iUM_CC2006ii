@@ -58,7 +58,7 @@ class CountClouds(PylabProcess):
         return self.data
 
     def run(self, w_thresh, qcl_thresh, start_index, end_index):
-        super(CountClouds, self).run()
+        #super(CountClouds, self).run()
         cubes = self.data
 
         w = find_cube(cubes, (0, 150))
@@ -66,10 +66,13 @@ class CountClouds(PylabProcess):
 
         mask = ((w.data > w_thresh) & (qcl.data > qcl_thresh))
 
+        self._count_clouds(mask, start_index, end_index)
+
+    def _count_clouds(self, mask, start_index, end_index):
         dists = []
         total_clouds = 0
         for i in range(start_index, end_index):
-            #print(i)
+            print(i)
             cloud_mask = count_blobs_mask(mask[i], diagonal=True)[1]
             cp = self._get_cloud_pos(cloud_mask)
             clouds = []
@@ -81,7 +84,8 @@ class CountClouds(PylabProcess):
         mean_clouds = total_clouds/(end_index - start_index)
 
         n, bins, patch = self.plt.hist(dists, 1000)
-        fig = self.plt.figure()
+        #fig = self.plt.figure()
+        #fig.clf()
 
         areas = self.np.pi * (bins[1:]**2 - bins[:-1]**2)
         cloud_densities = n / areas
@@ -105,9 +109,9 @@ class CountClouds(PylabProcess):
         #print(n[:20])
         #print(cloud_densities[:20])
 
-        self.plt.xlim((0, 128))
+        self.plt.xlim((0, 60))
         self.plt.ylim((0, 25))
-        self.processed_data = fig
+        #self.processed_data = fig
 
     def save(self):
         super(PylabProcess, self).save()
