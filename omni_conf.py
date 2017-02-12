@@ -28,11 +28,12 @@ comp = computers['zerogravitas']
 for expt in expts:
     comp['dirs']['work_' + expt] = '/home/markmuetz/omni_output/iUM_CC2006ii/work_{}'.format(expt)
     comp['dirs']['results_' + expt] = '/home/markmuetz/omni_output/iUM_CC2006ii/results_{}'.format(expt)
+    comp['dirs']['results_energy_ts' + expt] = '/home/markmuetz/omni_output/iUM_CC2006ii/results_energy_ts_{}'.format(expt)
 
 comp = computers['Z580']
 for expt in expts:
     comp['dirs']['work_' + expt] = '/home/markmuetz/omni_output/iUM_CC2006ii/work_{}'.format(expt)
-    comp['dirs']['results_' + expt] = '/home/markmuetz/omni_output/iUM_CC2006ii/results_{}'.format(expt)
+    comp['dirs']['results_energy_ts' + expt] = '/home/markmuetz/omni_output/iUM_CC2006ii/results_energy_ts_{}'.format(expt)
 
 batches = odict(('batch{}'.format(i), {'index': i}) for i in range(4))
 groups = odict()
@@ -48,12 +49,12 @@ for expt in expts:
             'filename_glob': 'iUM_CC2006_{}/work/2000??????????/atmos/atmos.pp1.nc'.format(expt),
             }
 
-    surf_base_nodes = ['precip_ts', 'shf_ts', 'lhf_ts', 'evap_ts']
+    surf_base_nodes = ['precip_ts', 'shf_ts', 'lhf_ts', 'evap_ts', 'pfe_ts']
     surf_base_vars = ['precip', 'shf', 'lhf']
 
     groups['surf_timeseries_' + expt] = {
         'type': 'nodes_process',
-        'base_dir': 'results_' + expt,
+        'base_dir': 'results_energy_ts' + expt,
         'batch': 'batch1',
         'nodes': [bn + '_' + expt for bn in surf_base_nodes],
     }
@@ -73,15 +74,35 @@ for expt in expts:
         'nodes': ['surf_ts_plots_' + expt],
     }
 
+    groups['surf_energy_ts_plots_' + expt] = {
+        'type': 'nodes_process',
+        'base_dir': 'output',
+        'batch': 'batch2',
+        'nodes': ['surf_energy_ts_plots_' + expt],
+    }
+
     nodes['evap_ts_' + expt] = {
         'type': 'from_nodes',
         'from_nodes': ['lhf_ts_' + expt],
         'process': 'convert_energy_to_mass_flux',
     }
+
+    nodes['pfe_ts_' + expt] = {
+        'type': 'from_nodes',
+        'from_nodes': ['precip_ts_' + expt],
+        'process': 'convert_mass_to_energy_flux',
+    }
+
     nodes['surf_ts_plots_' + expt] = {
         'type': 'from_nodes',
         'from_nodes': ['precip_ts_' + expt, 'evap_ts_' + expt],
         'process': 'plot_mass_flux_surf_timeseries',
+    }
+
+    nodes['surf_energy_ts_plots_' + expt] = {
+        'type': 'from_nodes',
+        'from_nodes': ['lhf_ts_' + expt, 'shf_ts_' + expt, 'pfe_ts_' + expt],
+        'process': 'plot_energy_surf_timeseries',
     }
 
     cc_nodes = []

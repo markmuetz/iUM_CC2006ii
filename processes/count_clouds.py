@@ -110,7 +110,7 @@ class CountClouds(PylabProcess):
         #print(cloud_densities[:20])
 
         self.plt.xlim((0, 60))
-        self.plt.ylim((0, 25))
+        self.plt.ylim((0, 50))
         #self.processed_data = fig
 
     def save(self):
